@@ -38,39 +38,78 @@
   <main>
     <section>
       <div class="container py-5">
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-          <div class="col-lg-4 p-0 overflow-hidden text-center">
-            <img src="./img/AnaisTack-Photo-2021.JPG" class="rounded-lg-3" alt="Anaïs Tack" width="250">
-          </div>
-          <div class="col-lg-8 p-3 p-lg-5 pt-lg-3">
-
-            <p class="lead">I'm a postdoctoral researcher interested in the application of natural language processing
-              and machine learning in educational technologies for foreign language learners.</p>
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5">
+          <div class="col-lg-4 p-0 overflow-hidden">
+            <div class="text-center"><img src="./img/AnaisTack-Photo-2021.JPG" class="rounded-lg-3" alt="Anaïs Tack" width="250"></div>
             <hr>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-map-marker-alt fa-fw"></i></span>Louvain-la-Neuve, Belgium</li>
-              <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>itec &mdash; imec research group at
-                KU Leuven &middot; CENTAL at UCLouvain</li>
+              <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span><a href="https://www.kuleuven.be/wieiswie/en/person/00112033" target="_blank">itec &mdash; imec research group at
+                KU Leuven</a> <br> <a href="https://www.uclouvain.be/anais.tack" target="_blank">CENTAL at UCLouvain</a></li>
+              <li><span class="fa-li"><i class="ai ai-google-scholar-square ai-1x"></i></span> <a href="https://scholar.google.com/citations?user=l3KxJgwAAAAJ" target="_blank"> List of publications</a></li>
               <!--<li><span class="fa-li"><i class="fas fa-info-circle fa-fw"></i></span><a data-bs-toggle="collapse" href="#collapse-about" aria-expanded="false" aria-controls="collapse-about">About</a></li>-->
-              <li><span class="fa-li"><i class="fas fa-paper-plane fa-fw"></i></span><a href="#contact">Contact</a></li>
+              <!--<li><span class="fa-li"><i class="fas fa-paper-plane fa-fw"></i></span><a href="#contact">Contact</a></li>-->
             </ul>
           </div>
-        </div>
-        <div class="row p-4 collapse" id="collapse-about">
-          <div class="col">
-            <p>I started working as a research assistant funded by the Altissia e-learning company. I worked on a
-              project focused on the automated grading of short answers (ASAG) written by English learners with CEFR
-              proficiency levels. During this project, I collected the <a
-                href="http://cental.fltr.ucl.ac.be/team/atack/cefr-asag/" target="_blank">CEFR-ASAG</a> dataset, which
-              can be downloaded and used for non-commercial purposes.</p>
-            <p>In 2016, I started working as an F.R.S.-FNRS research fellow</p>
-            <p>During my doctorate, I was also involved in the <a href="https://alectorsite.wordpress.com"
-                target="_blank">ANR Alector</a> project (2017-2020) on automatic text simplification for French children
-              with reading disabilities and dyslexia. In Jul-Aug 2018, I was a visiting researcher at the Laboratoire
-              Parole et Langage (LPL-CNRS, Aix-Marseille Université) where I worked on the project with Prof. Dr. Núria
-              Gala. During this research stay, I focused on the identification of difficult words in the Alector corpus
-              by aligning manual lexical simplifications with reading errors. Part of this work has been published in
-              our LREC2020 paper.</p>
+          <div class="col-lg-8 p-3 p-lg-5 pt-lg-3">
+            <p class="lead">I'm a postdoctoral researcher interested in the application of natural language processing
+              and machine learning in educational technologies for foreign language learners.</p>
+              <div class="accordion accordion-flush" id="accordion-about">
+                  <dt id="accordion-about-background">
+                    <a class="link-dark" href="#" data-bs-toggle="collapse" data-bs-target="#collapse-about-background" aria-expanded="true" aria-controls="collapse-about-background">
+                      Background
+                    </a>
+                  </dt>
+                  <dd id="collapse-about-background" class="accordion-collapse collapse show" aria-labelledby="accordion-about-background" data-bs-parent="#accordion-about">
+                    I obtained a BA and MA in English and French philology from KU Leuven. Subsequently, I studied language engineering and computer science at UCLouvain, where I graduated as Master in Computational Linguistics. I continued my graduate studies as an F.R.S.-FNRS research fellow at both UCLouvain and KU Leuven, where I obtained a joint Ph.D. degree in (Computational) Linguistics.
+                  </dd>
+                    <dt id="accordion-about-research">
+                      <a class="link-dark collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapse-about-research" aria-expanded="false" aria-controls="collapse-about-research">
+                        Research
+                      </a>
+                    </dt>
+                  <dd id="collapse-about-research" class="accordion-collapse collapse" aria-labelledby="accordion-about-research" data-bs-parent="#accordion-about">
+                      During my doctorate, I specialized in the automated prediction of lexical difficulty for foreign language readers.</br> During this time, I was also involved in the <a href="https://alectorsite.wordpress.com"
+              target="_blank">ANR Alector</a> project (2017-2020) on automatic text simplification for French children
+            with reading disabilities and dyslexia. I was a visiting researcher at the Laboratoire
+            Parole et Langage (LPL-CNRS, Aix-Marseille Université) where I worked on the project with Prof. Núria
+            Gala.<br/> Before, I worked as a research assistant funded by the Altissia e-learning company on a
+            project on the automated grading of short answers (ASAG) written by English learners with CEFR
+            proficiency levels.
+                  </dd>
+                  <dt id="accordion-about-resources">
+                    <a class="link-dark collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapse-about-resources" aria-expanded="false" aria-controls="collapse-about-resources">
+                      Open access resources
+                    </a>
+                  </dt>
+                  <dd id="collapse-about-resources" class="accordion-collapse collapse" aria-labelledby="accordion-about-resources" data-bs-parent="#accordion-about">
+                    <ul>
+                      <li><mark><a class="link-secondary" href="http://cental.fltr.ucl.ac.be/team/atack/cefr-asag/" target="_blank">CEFR-ASAG</a></mark>:
+                      A corpus of short answers written by learners of English and graded with CEFR levels for CEFR-based short answer grading
+                      </li>
+                      <li><mark><a class="link-secondary" href="https://cental.uclouvain.be/nt2lex/" target="_blank">NT2Lex</a></mark>:
+                        A CEFR-graded lexical resource for Dutch as a foreign language
+                        </li>
+                        <li><mark><a class="link-secondary" href="https://alectorsite.wordpress.com/corpus/" target="_blank">Alector alignments</a></mark>: Alignments in the French Alector corpus with reading errors made by dyslexic and poor-reading children</li>
+                    </ul>
+                      
+                  </dd>
+                  <dt id="accordion-about-scientific">
+                    <a class="link-dark collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapse-about-scientific" aria-expanded="false" aria-controls="collapse-about-scientific">
+                      Scientific activities
+                    </a>
+                  </dt>
+                  <dd id="collapse-about-scientific" class="accordion-collapse collapse" aria-labelledby="accordion-about-scientific" data-bs-parent="#accordion-about">
+                      I have been a PC member for several NLP conferences and workshops, including ACL, CoNLL, EACL, EMNLP, NAACL. I have also reviewed for <abbr title="Computer-Assisted Language Learning">CALL</abbr> journals (CALICO, ReCALL) and was part of the OC for the <abbr title="European Association of Computer-Assisted Language Learning">EUROCALL</abbr> 2019 conference.
+                  </dd>
+                  <dt id="accordion-about-teaching">
+                    <a class="link-dark collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapse-about-teaching" aria-expanded="false" aria-controls="collapse-about-teaching">
+                      Teaching activities
+                    </a>
+                  </dt>
+                  <dd id="collapse-about-teaching" class="accordion-collapse collapse" aria-labelledby="accordion-about-teaching" data-bs-parent="#accordion-about">
+                      I am currently a guest lecturer in NLP at UCLouvain (LFIAL2620) and give an invited lecture on NLP for CALL at KU Leuven (F0VH5A). I was a TA for several courses in NLP at UCLouvain (LCLIG2220, LINGI2263) and for French Proficiency I at KU Leuven Campus Kortrijk (V0AG3A).</div>
+                  </dd>
           </div>
         </div>
       </div>
@@ -78,7 +117,7 @@
 
     <section id="publications">
       <div class="container px-4 py-5">
-        <h1 class="py-3 border-bottom">Publications</h1>
+        <h1 class="py-3 border-bottom">Selected publications</h1>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 align-items-stretch g-4 py-5">
 
           <div class="col">
@@ -216,15 +255,6 @@
                   <small class="text-muted">2020</small>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border-light">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item list-group-item-dark">For a complete list of publications:</li>
-                <a type="button" href="https://scholar.google.com/citations?user=l3KxJgwAAAAJ" target="_blank"
-                  class="list-group-item"><i class="ai ai-google-scholar-square ai-1x"></i> Google Scholar</a>
-              </ul>
             </div>
           </div>
         </div>
@@ -387,30 +417,79 @@
           <div class="col-md-12">
             <ul class="timeline">
               <li class="event" data-date="2021">
-                <h3 class="fw-bold">Joint PhD in Linguistics</h3>
+                <h3><i class="fas fa-award fa-fw"></i> Postdoctoral Research Fellowship</h3>
+                <ul class="list-unstyled">
+                  <li>BAEF (Belgian American Educational Foundation)</li>
+                </ul>
+              </li>
+              <li class="event" data-date="2021">
+                <h3><i class="fas fa-graduation-cap fa-fw"></i> Joint PhD in Linguistics</h3>
                 <ul class="list-unstyled">
                   <li>UCLouvain &amp; KU Leuven</li>
                 </ul>
               </li>
-              <li class="event" data-date="2015">
-                <h3>MA in Computational Linguistics</h3>
+              <li class="event" data-date="2020">
+                <h3><i class="fas fa-briefcase fa-fw"></i> Guest Lecturer</h3>
                 <ul class="list-unstyled">
-                  <li>UCLouvain</li>
-                  <li class="text-muted">Major in NLP &middot; Minor in CS</li>
+                  <li>Faculty of Philosophy, Arts and Letters</li>
+                  <li class="text-muted">UCLouvain</li>
+                </ul>
+              </li>
+              <li class="event" data-date="2018">
+                <h3><i class="fas fa-suitcase-rolling fa-fw"></i> Visiting Researcher</h3>
+                <ul class="list-unstyled">
+                  <li>Laboratoire Parole et Langage (LPL-CNRS)</li>
+                  <li class="text-muted">Aix-Marseille Université</li>
+                </ul>
+              </li>
+              <li class="event" data-date="2016">
+                <h3><i class="fas fa-briefcase fa-fw"></i> Doctoral Researcher</h3>
+                <ul class="list-unstyled">
+                  <li>Center for Natural Language Processing (CENTAL)</li>
+                  <li class="text-muted">UCLouvain</li>
+                  <li class="mt-2">itec &mdash; imec research group</li>
+                  <li class="text-muted">KU Leuven</li>
+                </ul>
+              </li>
+              <li class="event" data-date="2016">
+                <h3><i class="fas fa-award fa-fw"></i> Doctoral Research Fellowship</h3>
+                <ul class="list-unstyled">
+                  <li>F.R.S.-FNRS (National Fund for Scientific Research)</li>
+                </ul>
+              </li>
+              <li class="event" data-date="2015">
+                <h3><i class="fas fa-briefcase fa-fw"></i> Research Assistant</h3>
+                <ul class="list-unstyled">
+                  <li>Center for Natural Language Processing (CENTAL)</li>
+                  <li class="text-muted">UCLouvain</li>
+                </ul>
+              </li>
+              <li class="event" data-date="2015">
+                <h3><i class="fas fa-graduation-cap fa-fw"></i> MA in Computational Linguistics</h3>
+                <ul class="list-unstyled">
+                  <li>Major in NLP &middot; Minor in CS</li>
+                  <li class="text-muted">UCLouvain</li>
+                </ul>
+              </li>
+              <li class="event" data-date="2014">
+                <h3><i class="fas fa-briefcase fa-fw"></i> Research Intern</h3>
+                <ul class="list-unstyled">
+                  <li>Computer Science Laboratory for Mechanics and Engineering Sciences (LIMSI-CNRS)</li>
+                  <li class="text-muted">Université Paris-Sud</li>
                 </ul>
               </li>
               <li class="event" data-date="2013">
-                <h3>MA in Philology</h3>
+                <h3><i class="fas fa-graduation-cap fa-fw"></i> MA in Philology</h3>
                 <ul class="list-unstyled">
-                  <li>KU Leuven</li>
-                  <li class="text-muted">English and French Linguistics and Literature</li>
+                  <li>English and French Linguistics and Literature</li>
+                  <li class="text-muted">KU Leuven</li>
                 </ul>
               </li>
               <li class="event" data-date="2012">
-                <h3>BA in Philology</h3>
+                <h3><i class="fas fa-graduation-cap fa-fw"></i> BA in Philology</h3>
                 <ul class="list-unstyled">
-                  <li>KU Leuven</li>
-                  <li class="text-muted">English and French Linguistics and Literature</li>
+                  <li>English and French Linguistics and Literature</li>
+                  <li class="text-muted">KU Leuven</li>
                 </ul>
               </li>
             </ul>
@@ -418,6 +497,7 @@
         </div>
       </div>
     </section>
+
   </main>
 
 
