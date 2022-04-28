@@ -7,10 +7,10 @@ subtitle  : >
   <a href="https://piechlab.stanford.edu" target="_blank">@ Piech Lab</a>
   <a href="https://profiles.stanford.edu/anais-tack" target="_blank">@ Stanford</a>
   &middot; 
-  Research Fellow
+  Fellow
   <a href="https://baef.be" target="_blank">@ BAEF</a>
   &middot; 
-  Executive Board Member
+  Board Member
   <a href="https://sig-edu.org" target="_blank">@ ACL SIGEDU</a>
 
 profile:
