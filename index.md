@@ -27,6 +27,6 @@ Hi there!
 
 I'm a postdoctoral researcher interested in the application of natural language processing and machine learning in educational technologies for language learners.
 
-My work focuses on the development and evaluation of automated methods (statistical and deep learning) and machine-readable resources (graded lexicons) for the identification of linguistic complexity and difficulty in natural language texts.
+My work focuses on developing and evaluating automated methods (statistical and deep learning) and machine-readable resources for the identification and prediction of complexity and difficulty in natural language.
 
 Several resources that I developed are available open access under a Creative Commons license, such as the [CEFR-ASAG dataset](https://github.com/anaistack/cefr-asag-corpus) and the [NT2Lex resource](https://github.com/anaistack/NT2Lex).
