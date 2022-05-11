@@ -19,7 +19,7 @@ profile:
 
 include_news            : true   # includes a list of news items
 news_limit              : 5
-include_selected_papers : false  # includes a list of papers marked as "selected={true}"
+include_selected_papers : true   # includes a list of papers marked as "selected={true}"
 include_social          : true   # includes social icons at the bottom of the page
 ---
 

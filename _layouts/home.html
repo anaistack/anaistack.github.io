@@ -4,9 +4,8 @@ layout: default
 
 <div class="post">
     <header class="post-header">
-        <h1 class="post-title title-cursive">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{
-            site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+        <h1 class="post-title">
+            <span>{{ site.first_name }}</span> {{ site.last_name }}
         </h1>
         <p class="title-sc">{{ page.subtitle }}</p>
     </header>

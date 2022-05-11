@@ -68,6 +68,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  papers:
+    output: true
+    permalink: /papers/:path/
   news:
     defaults:
       layout: post
@@ -122,28 +125,31 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 scholar:
 
-  last_name: Tack
-  first_name: Anaïs
+  last_name             : Tack
+  first_name            : Anaïs
 
-  style: apa
-  locale: en
+  style                 : apa
+  locale                : en
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+  source                : /_bibliography/
+  bibliography          : papers.bib
+  bibliography_template : bibliography
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  bibtex_filters        : [latex, smallcaps, superscript]
 
-  replace_strings: true
-  join_strings: true
+  replace_strings       : true
+  join_strings          : true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+  details_dir           : papers
+  details_layout        : paper.html
+  details_link          : ''  # do not add a details link after every bibliography entry
 
-  query: "@*"
+  sort_by               : year,month
+  order                 : descending
+
+  query                 : "@*"
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

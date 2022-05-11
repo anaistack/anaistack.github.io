@@ -6,10 +6,10 @@ inline: false
 ---
 
 Title
-: &quot;FABRA: French Aggregator-Based Readability Assessment Toolkit&quot;
+: <mark>FABRA: French Aggregator-Based Readability Assessment Toolkit</mark>
 
 Authors
-: Wilkens, Rodrigo &middot; Alfter, David &middot; Wang, Xiaoo &middot; Pintard, Alice &middot; <u>Tack, Anaïs</u> &middot; Yancey, Kevin P. &middot; François, Thomas
+: Wilkens, Rodrigo, Alfter, David, Wang, Xiaoo, Pintard, Alice, <b>Tack, Anaïs</b>, Yancey, Kevin P., & François, Thomas
 
 Venue
 : <a href="https://lrec2022.lrec-conf.org">LREC 2022: The 13th Language Resources and Evaluation Conference</a>
