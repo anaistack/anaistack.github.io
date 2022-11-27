@@ -31,7 +31,7 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 /****************************************************************************** Publications */
 /***************************************************************************** Projects */
 /******************************************************************************* Styles for the base elements of the theme. */
-body { font-size: medium; }
+body { font-size: 12pt; }
 
 .spaced-lower-small-caps, .title-sc { letter-spacing: 0.08em; text-transform: lowercase; font-variant: small-caps; }
 
@@ -197,7 +197,11 @@ a.mark:hover { text-decoration: none; }
 
 .publications ol.bibliography { padding: 0; margin-top: 0; }
 
+@media (max-width: 576px) { .publications ol.bibliography { list-style: none; } }
+
 .publications ol.bibliography li { margin-bottom: 1rem; }
+
+.publications ol.bibliography li .bibliography-type { vertical-align: middle; }
 
 .publications ol.bibliography li .abbr { height: 2rem; margin-bottom: 0.5rem; }
 
